@@ -1,0 +1,14 @@
+
+
+npm init -y
+mkdir src; touch ./src/app.ts
+npm install --save-dev typescript ts-node nodemon
+update package.json & tsconfig
+
+npm install express axios cheerio dotenv 
+npm install --save-dev @types/express @types/node
+
+
+refs
+https://chinesenewyear.net/
+https://github.com/dannee88/chineseHoroscope/blob/master/js/main.js

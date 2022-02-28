@@ -1,0 +1,31 @@
+{
+  "name": "chinese-zodiac",
+  "version": "1.0.0",
+  "description": "Finf your Chinese zodiac sign",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "script": "nodemon js/script.js",
+    "local": "heroku local web -p8000",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "chinese",
+    "zodiac"
+  ],
+  "author": "Kevin Duane",
+  "license": "ISC",
+  "engines": {
+    "node": "17.3.1",
+    "npm": "8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security"
+  }
+}

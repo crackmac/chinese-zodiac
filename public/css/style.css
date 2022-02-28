@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2rem;
+  color: rgba(54, 81, 148, 1);
+}
+
+/* Color palette
+red: #cd071e RGBA(205, 7, 30, 1)
+salmon: #f37042 RGBA(243, 112, 66, 1)
+golden: #ffb200 RGBA(255, 178, 0, 1)
+seafoam: #d0db61 RGBA(208, 219, 97, 1)
+blue: #365194 RGBA(54, 81, 148, 1)
+*/
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255, 178, 0, 1);
+  /* padding: 2rem; */
+}
+
+.title {
+  aligns-items: center;
+  /* font-weight: 200; */
+}
+
+.title a {
+  color: rgba(205, 7, 30, 1);
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-decoration: none;
+  /* float: left; */
+  display: block;
+  text-align: left;
+  /* padding: 15px; */
+}
+
+.title a:hover {
+  /* ??? */
+  --lightness-offset: 10%;
+}
+
+.title img {
+  /* display: block; */
+  filter: invert(10%) sepia(79%) saturate(7451%) hue-rotate(349deg)
+    brightness(87%) contrast(98%);
+  max-width: 3.7rem;
+  height: auto;
+}
+
+.enter_birthday {
+  display: block;
+  padding: 15px;
+}
+
+.enter_birthday p {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.birthday_form {
+  position: relative;
+  display: flex;
+  /* width: 100%;  */
+}
+
+.birthday_input-year {
+  /* display: block; */
+  font-size: 0.75rem;
+  line-height: 20px;
+  padding: 6px 16px;
+  border-radius: 6px;
+}
+.birthday_btn {
+  appearance: none;
+  margin-left: 8px;
+  background-color: rgba(243, 112, 66, 1);
+  border: 1px solid rgba(243, 112, 66, 1);
+  border-radius: 6px;
+  box-shadow: rgb(131, 53, 25) 0 1px 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.birthday_btn:focus:not(:focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.birthday_btn:hover {
+  background-color: rgba(243, 150, 66, 1);
+}
+
+.birthday_btn:focus {
+  background-color: rgb(243, 150, 66, 1);
+  outline: none;
+}
+
+.birthday_results {
+  color: rgba(205, 7, 30, 1);
+  font-size: 1rem;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+footer {
+  display: block;
+  padding: 0.25em;
+  /* font-size: 0.5em; */
+  background-color: rgba(243, 112, 66, 1);
+  width: 100%;
+  /* position: fixed; */
+  /* bottom: 0; */
+}
+
+.footer_misc {
+  /* padding: 1rem; */
+  font-size: 0.25em;
+}
+
+.footer_misc > a {
+  /* padding: 1rem; */
+  font-size: 1em;
+}
